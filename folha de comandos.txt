@@ -1,0 +1,47 @@
+Ativar virtual env
+cd projeto
+cd venv
+cd scripts
+activate
+
+
+Criar projeto django
+django-admin startproject "nome do projeto"
+
+Rodar o projeto django
+python manage.py runserver
+
+Parar o servidor
+crtl + c
+
+Criar tabela no banco de dados
+python manage.py migrate
+
+Criar Superusuario
+python manage.py createsuperuser
+
+Criar App
+python manage.py startapp nome
+
+Lista de comandos no manage.py
+python manage.py 
+
+Verificar novo conteudo do App
+python manage.py makemigrations
+
+Aplicar as alterações
+python manage.py migrate
+
+Criar git repositorio
+git init
+
+Mostrar histório do commit
+git status
+
+Fazer um commit
+git add .
+git commit -m "primeiro commit"
+git push origin master
+
+add remote
+git remote add origin endereço
